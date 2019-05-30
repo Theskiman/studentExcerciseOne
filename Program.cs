@@ -75,21 +75,24 @@ namespace ExcerciseOne
 
             Chris.studentsCohort = Day31;
 
-            Instructor Jisie = new Instructor(){
+            Instructor Jisie = new Instructor()
+            {
                 firstName = "Jisie",
                 lastName = "David",
                 slackHandle = "jisie",
                 specialty = "Talking that trash to people."
             };
 
-            Instructor Andy = new Instructor(){
+            Instructor Andy = new Instructor()
+            {
                 firstName = "Andy",
                 lastName = "Collins",
                 slackHandle = "andyc",
                 specialty = "Joshin with people"
             };
 
-            Instructor Kristen = new Instructor(){
+            Instructor Kristen = new Instructor()
+            {
                 firstName = "Kristen",
                 lastName = "Norris",
                 slackHandle = "kristen.norris",
@@ -103,8 +106,24 @@ namespace ExcerciseOne
             Andy.addExcercise(CoffeeHouse, Clif);
             Andy.addExcercise(FizzBuzz, Chris);
             Jisie.addExcercise(CoffeeHouse, Josh);
-
             
+            List<Student> allStudents = new List<Student>(){
+            Clif, Chris, Josh
+        };
+
+            List<Excercise> allExcercises = new List<Excercise>(){
+                FizzBuzz, CoffeeHouse, EnglishIdioms, FamilyDictionary
+            };
+
+            foreach(Student person in allStudents){
+                Console.Write($"{person.firstName} {person.lastName} is currently working on the following excercises:  ");
+                foreach(Excercise thing in person.excerciseList){
+                    Console.Write($"{thing.name}, ");
+                }
+                Console.WriteLine();
+            }
+
+
         }
     }
 }

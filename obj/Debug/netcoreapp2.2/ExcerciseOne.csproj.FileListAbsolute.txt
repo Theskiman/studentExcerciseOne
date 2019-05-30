@@ -1,0 +1,11 @@
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\bin\Debug\netcoreapp2.2\ExcerciseOne.deps.json
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\bin\Debug\netcoreapp2.2\ExcerciseOne.runtimeconfig.json
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\bin\Debug\netcoreapp2.2\ExcerciseOne.runtimeconfig.dev.json
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\bin\Debug\netcoreapp2.2\ExcerciseOne.dll
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\bin\Debug\netcoreapp2.2\ExcerciseOne.pdb
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.csprojAssemblyReference.cache
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.csproj.CoreCompileInputs.cache
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.AssemblyInfoInputs.cache
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.AssemblyInfo.cs
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.dll
+C:\Users\Cliff\backend\StudentExcercises\ExcerciseOne\obj\Debug\netcoreapp2.2\ExcerciseOne.pdb
