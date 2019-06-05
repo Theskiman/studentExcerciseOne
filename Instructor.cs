@@ -1,12 +1,8 @@
 
 namespace ExcerciseOne{
 
-    class Instructor{
-        public string firstName { get; set; }
-
-        public string lastName { get; set; }
-
-        public string slackHandle { get; set; }
+    class Instructor: NSSPeeps{
+        
 
          public Cohort instructorsCohort { get; set; }
 

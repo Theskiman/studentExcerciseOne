@@ -3,12 +3,8 @@ using System.Collections.Generic;
 namespace ExcerciseOne
 {
 
-    class Student{
-        public string firstName { get; set; }
-
-        public string lastName { get; set; }
-
-        public string slackHandle { get; set; }
+    class Student: NSSPeeps{
+        
 
         public Cohort studentsCohort { get; set; }
 
