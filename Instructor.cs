@@ -1,10 +1,10 @@
 
 namespace ExcerciseOne{
 
-    class Instructor: NSSPeeps{
+    public class Instructor: NSSPeeps{
         
 
-         public Cohort instructorsCohort { get; set; }
+       
 
          public string specialty { get; set; }
 

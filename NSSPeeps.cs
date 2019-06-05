@@ -8,6 +8,7 @@ namespace ExcerciseOne
         public string lastName { get; set; }
 
         public string slackHandle { get; set; }
+        public Cohort cohort { get; set; }
 
         public string fullName
         {

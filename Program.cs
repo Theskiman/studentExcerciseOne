@@ -56,7 +56,7 @@ namespace ExcerciseOne
                 slackHandle = "Theskiman",
             };
 
-            Clif.studentsCohort = Day31;
+            Clif.cohort = Day31;
 
             Student Josh = new Student()
             {
@@ -65,7 +65,7 @@ namespace ExcerciseOne
                 slackHandle = "jHibray"
             };
 
-            Josh.studentsCohort = Day31;
+            Josh.cohort = Day31;
 
             Student Chris = new Student()
             {
@@ -74,7 +74,7 @@ namespace ExcerciseOne
                 slackHandle = "Blue_Chris"
             };
 
-            Chris.studentsCohort = Day31;
+            Chris.cohort = Day31;
 
             Instructor Jisie = new Instructor()
             {
@@ -83,7 +83,7 @@ namespace ExcerciseOne
                 slackHandle = "jisie",
                 specialty = "Talking that trash to people."
             };
-            Jisie.instructorsCohort = Day31;
+            Jisie.cohort = Day31;
             Instructor Andy = new Instructor()
             {
                 firstName = "Andy",
@@ -91,7 +91,7 @@ namespace ExcerciseOne
                 slackHandle = "andyc",
                 specialty = "Joshin with people"
             };
-            Andy.instructorsCohort = Night20;
+            Andy.cohort = Night20;
             Instructor Kristen = new Instructor()
             {
                 firstName = "Kristen",
@@ -99,7 +99,7 @@ namespace ExcerciseOne
                 slackHandle = "kristen.norris",
                 specialty = "Bringing her dog to school"
             };
-            Kristen.instructorsCohort = Day31;
+            Kristen.cohort = Day31;
             Jisie.addExcercise(FizzBuzz, Clif);
             Jisie.addExcercise(CoffeeHouse, Chris);
             Kristen.addExcercise(EnglishIdioms, Josh);
@@ -125,7 +125,7 @@ namespace ExcerciseOne
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine(Clif.studentsCohort.cohortName);
+            Console.WriteLine(Clif.cohort.cohortName);
             Console.WriteLine("- - - - - - - - - - - - - - - ");
 
             // Excercise Two
@@ -151,7 +151,7 @@ namespace ExcerciseOne
             Console.WriteLine();
         // 2. List students in a particular cohort by using the Where() LINQ method.
 
-            var studentsCohort31 = allStudents.Where(student => student.studentsCohort == Day31);
+            var studentsCohort31 = allStudents.Where(student => student.cohort == Day31);
             foreach (var student in studentsCohort31)
             {
                 Console.WriteLine(student.firstName + " " + student.lastName);
@@ -161,7 +161,7 @@ namespace ExcerciseOne
             Console.WriteLine();
             // 3. List instructors in a particular cohort by using the Where() LINQ method.
 
-            var instructorsCohort31 = allInstructors.Where(instructor => instructor.instructorsCohort == Day31);
+            var instructorsCohort31 = allInstructors.Where(instructor => instructor.cohort == Day31);
             foreach (var instructor in instructorsCohort31)
             {
                 Console.WriteLine(instructor.firstName + " " + instructor.lastName);
@@ -187,7 +187,7 @@ namespace ExcerciseOne
             John.firstName = "Jon";
             John.lastName = "Schaffer";
             John.slackHandle = "JohnsSlack";
-            John.studentsCohort = Day31;
+            John.cohort = Day31;
             allStudents.Add(John);
 
         IEnumerable<Student> noExcercises = allStudents.Where(student => student.excerciseList.Count == 0);

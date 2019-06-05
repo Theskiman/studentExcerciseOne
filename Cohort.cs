@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace ExcerciseOne{
 
-    class Cohort{
+   public class Cohort{
         public string cohortName { get; set; }
 
         public List<Student> studentList = new List<Student>();
