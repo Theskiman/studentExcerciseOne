@@ -10,9 +10,9 @@ namespace ExcerciseOne
 
         public string slackHandle { get; set; }
 
-        public Cohort studentsCohort = new Cohort();
+        public Cohort studentsCohort { get; set; }
 
-        public List<Excercise> excerciseList = new List<Excercise>();
+        public List<Excercise> excerciseList { get; set; } = new List<Excercise>();
 
     }
 }
